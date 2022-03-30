@@ -1,0 +1,53 @@
+body{
+    color:white;
+    font-family:inherit;
+    text-align: center;
+    background-color:black;
+    border:solid;
+
+}
+
+
+img{
+    float: right;
+}
+
+input{
+    color: blue;
+    text-align: center;
+}
+
+div{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:firebrick;
+}
+body{
+    color: beige;
+    text-align:left;
+    background-color: black;
+}
+
+h6,h5{
+    color:bisque;
+    text-align: center;
+    text-rendering: auto;
+    font-family: sans-serif;
+}
+img{
+
+  width: 50%;
+  
+
+}
+body{
+    border-style:hidden;
+    text-align: center;
+    color: black;
+    background-color: black;
+    color: azure;
+}
+
+img{
+    z-index: relative;
+}
