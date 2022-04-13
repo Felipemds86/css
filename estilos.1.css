@@ -1,0 +1,62 @@
+/*efeito vidro embacado*/
+
+{
+    background: rgba(255,255,255,0.1);
+                backdrop-flip:blur (10px);
+                :-webkit-backdrop-filter:blur (10px);
+
+
+}
+
+/*efeito de vidro embaçado */
+
+    selector{ 
+        backdrop-filter:blur(20px);
+        -webkit-backdrop-filter:blur(20px);
+
+}
+
+
+/*titulo com degrade */
+selector.elementor-heading-title{
+        background: linear-gradient (to right: #d279bd 25%, #9ffb87 75%;);
+        background-clip:text;
+        -webkit-background-clip:text;
+        -webkit-text-fill-color:transparent;
+
+    }
+
+    /*aumentar incones em botoes */
+
+    selector .elementor-button-icon i::before{
+        font-size: 30px;
+        vertical-align: middle;
+    }
+
+    /* alterar a cor da barra de rolagem */
+
+    body::-webkit-scrollbar{
+        width: 12px;
+    }
+
+    body::-webkit-scrollbar-track{
+        background: #d279bd;
+    }
+
+    body::-webkit-scrollbar-thumb{
+        background-color: #9ffb87;
+        border-radius: 10px;
+        border: 2px solid #d279bd;
+
+    }
+
+    /* alinar icones do widget "lista de icones" ao topo*/
+
+    selector.elementor-icons-list-item{
+            align-items:baseline ;
+    }
+
+    selector.elementor-icon-list-item i{
+        padding-top: 5px;
+    }
+        
